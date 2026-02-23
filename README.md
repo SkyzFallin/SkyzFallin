@@ -1,15 +1,11 @@
-# 🐓 SkyzFallin
+#  SkyzFallin
 
 **Cybersecurity + Stock Market stuffz**
 *Taking advantage of paper hands and paper security*
 
 ---
 
-Cybersecurity consultant with 12+ years in the trenches — penetration testing, vulnerability assessments, security consulting, controls auditing, and social engineering. CISSP | CCSP | SSCP. Based in the Pacific Northwest.
-
-When I'm not breaking into things professionally, I'm building tools that make the job easier — or watching SPY options do their thing.
-
-## 🔧 What I Build
+##  What I Build
 
 ### Offensive Security Tooling
 - **[ResponderSluiceBoxCleaner](https://github.com/SkyzFallin/ResponderSluiceBoxCleaner)** — Like panning for gold. Sifts through Responder hash captures, deduplicates, and outputs clean hashes ready to crack.
@@ -23,11 +19,11 @@ When I'm not breaking into things professionally, I'm building tools that make t
 ### Trading
 - **[SPYderScalp](https://github.com/SkyzFallin/SPYderScalp)** — SPY intraday 0-2 DTE options signal monitor with multi-indicator quality scoring, multi-timeframe confirmation, prediction tracking, and an options value scanner.
 
-## 🛠️ Languages & Tools
+##  Languages & Tools
 
 `Python` `Bash/Shell` `Kali Linux` `Burp Suite` `Nmap` `Responder` `Metasploit` `NoVNC` `PyQt5` `HTML/CSS`
 
-## 📊 Stats
+##  Stats
 
 ![SkyzFallin's GitHub stats](https://github-readme-stats.vercel.app/api?username=SkyzFallin&show_icons=true&theme=tokyonight&hide_border=true)
 
