@@ -1,7 +1,6 @@
 #  SkyzFallin
 
 **Cybersecurity + Stock Market stuffz**
-*Taking advantage of paper hands and paper security*
 
 ---
 
