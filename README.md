@@ -23,12 +23,3 @@
 
 `Python` `Bash/Shell` `Kali Linux` `Burp Suite` `Nmap` `Responder` `Metasploit` `NoVNC` `PyQt5` `HTML/CSS`
 
-##  Stats
-
-![SkyzFallin's GitHub stats](https://github-readme-stats.vercel.app/api?username=SkyzFallin&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SkyzFallin&layout=compact&theme=tokyonight&hide_border=true)
-
----
-
-*The sky isn't falling — it already fell. Now we pick through the rubble.* 🐔
