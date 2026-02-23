@@ -17,6 +17,7 @@
 
 ### Trading
 - **[SPYderScalp](https://github.com/SkyzFallin/SPYderScalp)** — SPY intraday 0-2 DTE options signal monitor with multi-indicator quality scoring, multi-timeframe confirmation, prediction tracking, and an options value scanner.
+- **[SKYZ-SPY-Scalper](https://github.com/SkyzFallin/SKYZ-SPY-Scalper)** — 1-minute optimized SPY scalping indicator for Webull. EMA trend alignment, pullback entries, RSI/volume filters, and ATR-based risk framework.
 
 ##  Languages & Tools
 
