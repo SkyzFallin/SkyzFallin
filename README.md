@@ -1,0 +1,38 @@
+# 🐓 SkyzFallin
+
+**Cybersecurity + Stock Market stuffz**
+*Taking advantage of paper hands and paper security*
+
+---
+
+Cybersecurity consultant with 12+ years in the trenches — penetration testing, vulnerability assessments, security consulting, controls auditing, and social engineering. CISSP | CCSP | SSCP. Based in the Pacific Northwest.
+
+When I'm not breaking into things professionally, I'm building tools that make the job easier — or watching SPY options do their thing.
+
+## 🔧 What I Build
+
+### Offensive Security Tooling
+- **[ResponderSluiceBoxCleaner](https://github.com/SkyzFallin/ResponderSluiceBoxCleaner)** — Like panning for gold. Sifts through Responder hash captures, deduplicates, and outputs clean hashes ready to crack.
+- **[1-1-LinerToRuleThemAll](https://github.com/SkyzFallin/1-1-LinerToRuleThemAll)** — Pentest one-liner compilation. I didn't make these, but I sure did copy/paste them.
+- **[YesNoVNC](https://github.com/SkyzFallin/YesNoVNC)** — Sets up NoVNC so it actually works with one (double) click. Browser-based VNC for Kali Linux.
+- **[CivicPlusPlus](https://github.com/SkyzFallin/CivicPlusPlus)** — OSINT tool for finding city websites on the Civic Plus platform and extracting staff directory info.
+
+### AI + Automation
+- **[Claude-Desktop-Kali-Setup](https://github.com/SkyzFallin/Claude-Desktop-Kali-Setup)** — One-command installer for Claude Desktop + MCP servers on Kali Linux/Debian/Ubuntu. APT repo, GPG keys, and MCP server integration — all automatic.
+
+### Trading
+- **[SPYderScalp](https://github.com/SkyzFallin/SPYderScalp)** — SPY intraday 0-2 DTE options signal monitor with multi-indicator quality scoring, multi-timeframe confirmation, prediction tracking, and an options value scanner.
+
+## 🛠️ Languages & Tools
+
+`Python` `Bash/Shell` `Kali Linux` `Burp Suite` `Nmap` `Responder` `Metasploit` `NoVNC` `PyQt5` `HTML/CSS`
+
+## 📊 Stats
+
+![SkyzFallin's GitHub stats](https://github-readme-stats.vercel.app/api?username=SkyzFallin&show_icons=true&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SkyzFallin&layout=compact&theme=tokyonight&hide_border=true)
+
+---
+
+*The sky isn't falling — it already fell. Now we pick through the rubble.* 🐔
