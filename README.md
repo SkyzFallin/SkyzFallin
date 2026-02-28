@@ -23,3 +23,10 @@
 
 `Python` `Bash/Shell` `Kali Linux` `Burp Suite` `Nmap` `Responder` `Metasploit` `NoVNC` `PyQt5` `HTML/CSS`
 
+---
+
+## Repo Quality Roadmap
+
+I ran a full coding/security improvement pass and documented a prioritized action plan here:
+
+- **[GITHUB_AUDIT.md](./GITHUB_AUDIT.md)**
