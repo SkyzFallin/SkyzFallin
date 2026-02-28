@@ -1,7 +1,7 @@
 #  SkyzFallin
 
 **Cybersecurity + Stock Market stuffz**
-"I follow directions, why doesn't it work?"
+
 ---
 
 ##  What I Build
