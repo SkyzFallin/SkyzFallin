@@ -23,9 +23,6 @@
 ### AI + Automation
 - **[Claude-Desktop-Kali-Setup](https://github.com/SkyzFallin/Claude-Desktop-Kali-Setup)** — One-command installer for Claude Desktop + MCP servers on Kali Linux/Debian/Ubuntu. APT repo, GPG keys, and MCP server integration — all automatic.
 
-### Templates & Starters
-- **[HTML-static-site-starter](https://github.com/SkyzFallin/HTML-static-site-starter)** — Retro CRT terminal animation built with pure HTML, CSS, and JavaScript. Simulates a Windows XP command prompt on a vintage beige monitor.
-
 ##  Languages & Tools
 
 `Python` `Bash/Shell` `Go` `HTML/CSS/JS` `Kali Linux` `Burp Suite` `Nmap` `Responder` `Metasploit` `NoVNC` `PyQt5` `Docker` `Cloudflare Workers`
