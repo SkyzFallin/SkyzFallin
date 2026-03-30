@@ -9,9 +9,10 @@
       <stop offset="0%" stop-color="#818cf8"/>
       <stop offset="100%" stop-color="#6366f1"/>
     </linearGradient>
-    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f472b6"/>
-      <stop offset="100%" stop-color="#ec4899"/>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
     </linearGradient>
   </defs>
 
@@ -38,42 +39,66 @@
     <text font-family="monospace" font-size="160" fill="#818cf8">}</text>
   </g>
 
-  <!-- Glow behind name -->
-  <ellipse cx="640" cy="130" rx="200" ry="60" fill="#818cf8" opacity="0.03"/>
+  <!-- Rain cloud - top right area -->
+  <g transform="translate(1020, 35)" opacity="0.18">
+    <!-- Cloud body -->
+    <path d="M25 32 C15 32 8 26 12 20 C10 14 18 10 24 12 C26 6 36 4 42 9 C48 5 58 9 56 16 C62 16 64 24 58 28 C60 32 25 32 25 32Z" stroke="#818cf8" stroke-width="1.5" fill="none"/>
+    <!-- Rain drops -->
+    <line x1="22" y1="36" x2="20" y2="44" stroke="#818cf8" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="32" y1="36" x2="30" y2="48" stroke="#818cf8" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="42" y1="36" x2="40" y2="42" stroke="#818cf8" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="52" y1="34" x2="50" y2="46" stroke="#818cf8" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
 
-  <!-- Name -->
-  <text x="640" y="130" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="#e2e8f0" text-anchor="middle" letter-spacing="-1">
+  <!-- Second smaller rain cloud -->
+  <g transform="translate(1130, 55)" opacity="0.12">
+    <path d="M15 22 C9 22 5 18 8 14 C7 10 12 8 16 9 C17 5 24 4 28 7 C32 4 38 7 37 12 C40 12 42 17 38 20 C40 22 15 22 15 22Z" stroke="#c084fc" stroke-width="1.2" fill="none"/>
+    <line x1="14" y1="25" x2="13" y2="31" stroke="#c084fc" stroke-width="1" stroke-linecap="round"/>
+    <line x1="22" y1="25" x2="21" y2="33" stroke="#c084fc" stroke-width="1" stroke-linecap="round"/>
+    <line x1="30" y1="24" x2="29" y2="30" stroke="#c084fc" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Glow behind name -->
+  <ellipse cx="640" cy="120" rx="220" ry="60" fill="#818cf8" opacity="0.04"/>
+
+  <!-- Name with gradient -->
+  <text x="640" y="125" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="url(#nameGrad)" text-anchor="middle" letter-spacing="-1">
     SkyzFallin
   </text>
 
-  <!-- Divider line -->
-  <line x1="540" y1="165" x2="740" y2="165" stroke="#818cf8" stroke-width="1" opacity="0.2"/>
+  <!-- Funny subtitle -->
+  <text x="640" y="158" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle" font-style="italic" opacity="0.35">
+    don't worry, the sky isn't falling... it's just raining code
+  </text>
 
-  <!-- Tech icons row -->
-  <g transform="translate(0, 190)">
+  <!-- Divider line -->
+  <line x1="520" y1="178" x2="760" y2="178" stroke="#818cf8" stroke-width="1" opacity="0.2"/>
+
+  <!-- Tech icons row - brighter -->
+  <g transform="translate(0, 198)">
     <!-- Terminal prompt -->
-    <g transform="translate(460, 0)" opacity="0.35">
-      <rect x="0" y="0" width="44" height="32" rx="4" stroke="#818cf8" stroke-width="1.5" fill="none"/>
+    <g transform="translate(460, 0)" opacity="0.55">
+      <rect x="0" y="0" width="44" height="32" rx="4" stroke="#818cf8" stroke-width="1.5" fill="#818cf8" fill-opacity="0.08"/>
       <text x="10" y="22" font-family="monospace" font-size="14" fill="#818cf8">$_</text>
     </g>
 
     <!-- Code file -->
-    <g transform="translate(530, 0)" opacity="0.35">
-      <rect x="0" y="0" width="44" height="32" rx="4" stroke="#f472b6" stroke-width="1.5" fill="none"/>
+    <g transform="translate(530, 0)" opacity="0.55">
+      <rect x="0" y="0" width="44" height="32" rx="4" stroke="#f472b6" stroke-width="1.5" fill="#f472b6" fill-opacity="0.08"/>
       <text x="8" y="22" font-family="monospace" font-size="12" fill="#f472b6">&lt;/&gt;</text>
     </g>
 
     <!-- Git branch -->
-    <g transform="translate(600, 0)" opacity="0.35">
-      <rect x="0" y="0" width="44" height="32" rx="4" stroke="#818cf8" stroke-width="1.5" fill="none"/>
+    <g transform="translate(600, 0)" opacity="0.55">
+      <rect x="0" y="0" width="44" height="32" rx="4" stroke="#818cf8" stroke-width="1.5" fill="#818cf8" fill-opacity="0.08"/>
       <circle cx="15" cy="12" r="3" stroke="#818cf8" stroke-width="1.5" fill="none"/>
       <circle cx="30" cy="22" r="3" stroke="#818cf8" stroke-width="1.5" fill="none"/>
       <line x1="15" y1="15" x2="30" y2="19" stroke="#818cf8" stroke-width="1.5"/>
     </g>
 
     <!-- Database -->
-    <g transform="translate(670, 0)" opacity="0.35">
-      <rect x="0" y="0" width="44" height="32" rx="4" stroke="#f472b6" stroke-width="1.5" fill="none"/>
+    <g transform="translate(670, 0)" opacity="0.55">
+      <rect x="0" y="0" width="44" height="32" rx="4" stroke="#f472b6" stroke-width="1.5" fill="#f472b6" fill-opacity="0.08"/>
       <ellipse cx="22" cy="11" rx="10" ry="4" stroke="#f472b6" stroke-width="1.5" fill="none"/>
       <line x1="12" y1="11" x2="12" y2="23" stroke="#f472b6" stroke-width="1.5"/>
       <line x1="32" y1="11" x2="32" y2="23" stroke="#f472b6" stroke-width="1.5"/>
@@ -81,15 +106,21 @@
     </g>
 
     <!-- Cloud -->
-    <g transform="translate(740, 0)" opacity="0.35">
-      <rect x="0" y="0" width="44" height="32" rx="4" stroke="#818cf8" stroke-width="1.5" fill="none"/>
+    <g transform="translate(740, 0)" opacity="0.55">
+      <rect x="0" y="0" width="44" height="32" rx="4" stroke="#818cf8" stroke-width="1.5" fill="#818cf8" fill-opacity="0.08"/>
       <path d="M14 22 C10 22 8 19 10 16 C10 13 14 12 16 13 C17 10 22 9 25 11 C28 9 33 11 33 14 C36 14 37 18 34 20 C35 22 14 22 14 22Z" stroke="#818cf8" stroke-width="1.2" fill="none"/>
     </g>
   </g>
 
+  <!-- Falling code snippets scattered around -->
+  <g opacity="0.06">
+    <text x="150" y="180" font-family="monospace" font-size="11" fill="#c084fc" transform="rotate(-8, 150, 180)">if sky == falling:</text>
+    <text x="920" y="260" font-family="monospace" font-size="10" fill="#818cf8" transform="rotate(5, 920, 260)">return "nah"</text>
+    <text x="100" y="270" font-family="monospace" font-size="10" fill="#f472b6" transform="rotate(-3, 100, 270)">git push --force</text>
+    <text x="1050" y="200" font-family="monospace" font-size="11" fill="#c084fc" transform="rotate(4, 1050, 200)">except SkyFall:</text>
+    <text x="1080" y="280" font-family="monospace" font-size="10" fill="#818cf8" transform="rotate(-6, 1080, 280)">pass</text>
+  </g>
+
   <!-- Bottom accent -->
-  <rect x="0" y="316" width="1280" height="4">
-    <animate attributeName="fill" values="#818cf8;#6366f1;#818cf8" dur="4s" repeatCount="indefinite"/>
-  </rect>
   <rect x="0" y="316" width="1280" height="4" fill="url(#accent)" opacity="0.4"/>
 </svg>
