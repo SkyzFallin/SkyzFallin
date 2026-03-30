@@ -102,8 +102,9 @@
     <line x1="0" y1="15" x2="80" y2="15" stroke="#6366f1" stroke-width="0.5" stroke-dasharray="3,3"/>
     <line x1="0" y1="30" x2="80" y2="30" stroke="#6366f1" stroke-width="0.5" stroke-dasharray="3,3"/>
     <line x1="0" y1="45" x2="80" y2="45" stroke="#6366f1" stroke-width="0.5" stroke-dasharray="3,3"/>
-    <polyline points="5,8 20,12 35,10 45,22 55,30 65,42 75,55" stroke="#db2777" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <polygon points="75,55 70,48 78,50" fill="#db2777"/>
+    <polyline points="5,8 20,12 35,10 45,22 55,30 62,42 68,58 72,80" stroke="#db2777" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="72,80 64,70 80,70" fill="#db2777"/>
+    <line x1="72" y1="70" x2="72" y2="80" stroke="#db2777" stroke-width="2.5"/>
   </g>
 
   <!-- 📉 Chart - right side -->
@@ -113,8 +114,9 @@
     <line x1="0" y1="12" x2="70" y2="12" stroke="#6366f1" stroke-width="0.5" stroke-dasharray="3,3"/>
     <line x1="0" y1="25" x2="70" y2="25" stroke="#6366f1" stroke-width="0.5" stroke-dasharray="3,3"/>
     <line x1="0" y1="37" x2="70" y2="37" stroke="#6366f1" stroke-width="0.5" stroke-dasharray="3,3"/>
-    <polyline points="5,6 18,10 30,8 40,18 50,28 60,38 68,46" stroke="#db2777" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <polygon points="68,46 63,40 70,42" fill="#db2777"/>
+    <polyline points="5,6 18,10 30,8 40,18 48,28 54,38 58,48 62,68" stroke="#db2777" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="62,68 55,59 69,59" fill="#db2777"/>
+    <line x1="62" y1="59" x2="62" y2="68" stroke="#db2777" stroke-width="2.5"/>
   </g>
 
   <!-- Glow behind name -->
