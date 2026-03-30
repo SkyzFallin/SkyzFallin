@@ -1,36 +1,35 @@
-#  SkyzFallin
+# SkyzFallin
 
-**Cybersecurity + Stock Market stuffz**
+**Cybersecurity + Stock Market**
 
 ---
 
-##  What I Build
+## What I Build
 
 ### Offensive Security Tooling
-- **[ShellChain](https://github.com/SkyzFallin/ShellChain)** — SSH + su command execution for non-interactive shells. Automates chained remote access for pentesting and CI/CD.
-- **[Web-App-Lab-Setup-er](https://github.com/SkyzFallin/Web-App-Lab-Setup-er)** — One-command setup for a complete web app pentesting lab. Deploys DVWA, Juice Shop, installs tools, and drops wordlists.
-- **[ResponderSluiceBoxCleaner](https://github.com/SkyzFallin/ResponderSluiceBoxCleaner)** — Like panning for gold. Sifts through Responder hash captures, deduplicates, and outputs clean hashes ready to crack.
-- **[1-1-LinerToRuleThemAll](https://github.com/SkyzFallin/1-1-LinerToRuleThemAll)** — Pentest one-liner compilation. I didn't make these, but I sure did copy/paste them.
-- **[YesNoVNC](https://github.com/SkyzFallin/YesNoVNC)** — Sets up NoVNC so it actually works with one (double) click. Browser-based VNC for Kali Linux.
-- **[CivicPlusPlus](https://github.com/SkyzFallin/CivicPlusPlus)** — OSINT tool for finding city/county/state websites using the popular "Civic Plus" platform and extracting IT employee info for phishing and sales. Motivation: Kevin is the best sales guy ever.
+- **[ShellChain](https://github.com/SkyzFallin/ShellChain)** — Expect-based SSH + su chaining for non-interactive shells. Handles TTY simulation where standard tools fail. Built for pentesting lateral movement, MCP automation, and CI/CD pipelines.
+- **[Web-App-Lab-Setup-er](https://github.com/SkyzFallin/Web-App-Lab-Setup-er)** — One-command setup for a full web app pentesting lab. Deploys DVWA and OWASP Juice Shop in Docker, installs sqlmap/ffuf/gobuster/nikto/nuclei, and pulls SecLists — all from a single script.
+- **[ResponderSluiceBoxCleaner](https://github.com/SkyzFallin/ResponderSluiceBoxCleaner)** — Like panning for gold. Sifts through Responder hash captures, deduplicates by username + hash type, archives originals, and outputs a single clean file ready for Hashcat or John.
+- **[1-1-LinerToRuleThemAll](https://github.com/SkyzFallin/1-1-LinerToRuleThemAll)** — Interactive Python CLI for 40+ weaponized pentest one-liners organized by category. Set target once, browse, search, and copy ready-to-fire commands. Includes recon, auth attacks, injection, SSRF, evasion, and full exploit chains.
+- **[YesNoVNC](https://github.com/SkyzFallin/YesNoVNC)** — One-command noVNC setup for Kali Linux that actually works. Sets up TightVNC + noVNC with the blank-screen fix baked in. Browser-based remote desktop in one shot.
+- **[CivicPlusPlus](https://github.com/SkyzFallin/CivicPlusPlus)** — OSINT tool for discovering city/county websites running the Civic Plus platform and extracting IT staff contact info. Useful for phishing simulations and authorized social engineering engagements.
+- **[Color-Coded-Syntax](https://github.com/SkyzFallin/Color-Coded-Syntax)** — Color-coded cheat sheets for common pentest authentication tools: impacket, smbmap, smbclient, nxc. Because muscle memory only goes so far.
 
 ### Trading
-- **[Webot](https://github.com/SkyzFallin/Webot)** — Fully autonomous Webull trading bot for stocks and options. Momentum-based indicators with built-in risk management. Paper and live modes.
-- **[SPYderScalp](https://github.com/SkyzFallin/SPYderScalp)** — SPY intraday 0-2 DTE options signal monitor with multi-indicator quality scoring, multi-timeframe confirmation, prediction tracking, and an options value scanner.
-- **[SKYZ-SPY-Scalper](https://github.com/SkyzFallin/SKYZ-SPY-Scalper)** — 1-minute optimized SPY scalping indicator for Webull. EMA trend alignment, pullback entries, RSI/volume filters, and ATR-based risk framework.
-- **[DegenDetector](https://github.com/SkyzFallin/DegenDetector)** — Trading analytics tool.
+- **[DegenDetector](https://github.com/SkyzFallin/DegenDetector)** — Real-time insider activity detection dashboard for prediction markets. Monitors Polymarket and Kalshi for volume anomalies using a multi-signal suspicion score (0-100): spike suddenness, robust Z-score, directional conviction, price flip detection, leak probability by category, off-hours activity, and on-chain wallet intelligence. Fires alerts when signals converge.
+- **[SPYderScalp](https://github.com/SkyzFallin/SPYderScalp)** — Real-time SPY intraday options signal monitor with a 12-indicator quality score (0-100), multi-timeframe confirmation, prediction tracking, economic calendar, options value scanner, and DTE recommender. Built for 0-2 DTE scalping.
+- **[SKYZ-SPY-Scalper](https://github.com/SkyzFallin/SKYZ-SPY-Scalper)** — 1-minute SPY scalping indicator for Webull. Combines EMA trend alignment, pullback continuation entries, RSI/volume filters, and an ATR-based risk framework with three configurable hold profiles.
+- **[Webot](https://github.com/SkyzFallin/Webot)** — Fully autonomous Webull trading bot for stocks and options. Momentum-based EMA/SMA + RSI strategy with stop-loss, take-profit, and trailing stops. YAML + .env configuration. Paper and live trading modes.
 
 ### AI + Automation
-- **[Claude-Desktop-Kali-Setup](https://github.com/SkyzFallin/Claude-Desktop-Kali-Setup)** — One-command installer for Claude Desktop + MCP servers on Kali Linux/Debian/Ubuntu. APT repo, GPG keys, and MCP server integration — all automatic.
-
-##  Languages & Tools
-
-`Python` `Bash/Shell` `Go` `HTML/CSS/JS` `Kali Linux` `Burp Suite` `Nmap` `Responder` `Metasploit` `NoVNC` `PyQt5` `Docker` `Cloudflare Workers`
+- **[Claude-Desktop-Kali-Setup](https://github.com/SkyzFallin/Claude-Desktop-Kali-Setup)** — One-command installer for Claude Desktop and MCP servers on Kali Linux, Debian, and Ubuntu. Handles APT repo setup, GPG keys, and MCP server integration automatically.
 
 ---
 
-## Repo Quality Roadmap
+## Languages & Tools
 
-I ran a full coding/security improvement pass and documented a prioritized action plan here:
+`Python` `Bash/Shell` `JavaScript` `React` `HTML/CSS` `Kali Linux` `Burp Suite` `Nmap` `Responder` `Metasploit` `Docker` `Vite` `NoVNC` `PyQt5` `Cloudflare Workers`
 
-- **[GITHUB_AUDIT.md](./GITHUB_AUDIT.md)**
+---
+
+> All offensive security tools are intended for authorized use only on systems you own or have explicit written permission to test.
