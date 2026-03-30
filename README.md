@@ -1,4 +1,8 @@
-# SkyzFallin
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset=".github/banner.svg">
+  <img alt="SkyzFallin" src=".github/banner.svg" width="100%">
+</picture>
 
 **Cybersecurity + Stock Market**
 
