@@ -46,3 +46,5 @@
 ---
 
 > All offensive security tools are intended for authorized use only on systems you own or have explicit written permission to test.
+>
+> Trading tools are for educational and informational purposes only — not financial advice. Past performance does not guarantee future results. Trade at your own risk.
