@@ -26,6 +26,7 @@
 
 ### AI + Automation
 - **[Claude-Desktop-Kali-Setup](https://github.com/SkyzFallin/Claude-Desktop-Kali-Setup)** — One-command installer for Claude Desktop and MCP servers on Kali Linux, Debian, and Ubuntu. Handles APT repo setup, GPG keys, and MCP server integration automatically.
+- **[ForkOff](https://github.com/SkyzFallin/ForkOff)** — Automated daily GitHub mirror backup. Clones all your repos to a local or remote target on a schedule so you always have an independent copy.
 
 ---
 
